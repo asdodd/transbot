@@ -1,0 +1,10 @@
+<launch>
+  <arg name="node_name" default="YOLOX" />
+
+  <arg name="image" default="image" doc="The image topic. Should be remapped to the name of the real image topic." />
+
+  <!-- yoloX.cpp -->
+  <node name="$(arg node_name)" pkg="opencv_apps" type="YOLOX" >
+    <remap from="imagepath" to="$(arg image)" />
+  </node>
+</launch>

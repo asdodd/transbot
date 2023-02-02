@@ -1,0 +1,2 @@
+astra_camera:astra_launch:imu_calib:imu_filter_madgwick:opencv_apps:robot_localization:rplidar_ros:rrt_exploration:transbot_config_astra:transbot_config_camera:transbot_description
+-DCATKIN_DEVEL_PREFIX=/home/jetson/software/transbot_library/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/software/transbot_library/install -G Unix Makefiles
